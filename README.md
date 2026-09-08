@@ -2,15 +2,15 @@
 Natural Languages processing projects using Python and machine learning.
 NLP Sentiment Analysis
 
-#📌 Project Title
+**📌 Project Title**
 
 Customer Review Sentiment Analysis
 
-📖 Business Objective
+**📖 Business Objective**
 
 The objective of this project is to extract and analyze sentiment from customer reviews of a product. The dataset should preferably contain customer reviews collected from e-commerce platforms such as Amazon.
 
-🎯 Project Goal
+**🎯 Project Goal**
 
 To classify customer reviews into different sentiment categories such as:
 
@@ -18,13 +18,13 @@ To classify customer reviews into different sentiment categories such as:
 - 😐 Neutral
 - 😞 Negative
 
-📊 Dataset
+**📊 Dataset**
 
 The dataset contains customer reviews extracted or collected from an e-commerce website, preferably Amazon.
 
 Only customer review data is required for this sentiment analysis project.
 
-🔧 Technologies Used
+**🔧 Technologies Used**
 
 - Python
 - Jupyter Notebook
@@ -36,7 +36,7 @@ Only customer review data is required for this sentiment analysis project.
 - NLTK
 - Streamlit
 
-🚀 Project Workflow
+**🚀 Project Workflow**
 
 1. Data Collection
    
@@ -76,23 +76,36 @@ Only customer review data is required for this sentiment analysis project.
    
    - Deploy the final sentiment analysis application using Streamlit.
 
-📁 Project Structure
+**📁 Project Structure**
 
 NLP-Sentiment-Analysis/
+
 │
+
 ├── data/
+
 │   └── P652-Dataset.csv
+
 │
+
 ├── notebooks/
-│   ├── 01_Data_Cleaning.ipynb
-│   ├── 02_EDA.ipynb
-│   └── 03_Model_Building.ipynb
+
+│    ├── 01_Data_Cleaning.ipynb
+
+│    ├── 02_EDA.ipynb
+
+│    └── 03_Model_Building.ipynb
+
 │
+
 ├── NLP.py
+
 ├── requirements.txt
+
 └── README.md
 
-💻 How to Run the Project
+
+**💻 How to Run the Project**
 
 Clone the Repository
 
@@ -106,13 +119,13 @@ Run the Streamlit Application
 
 streamlit run app.py
 
-📈 Expected Outcome
+**📈 Expected Outcome**
 
 The application will allow users to enter a customer review and predict whether the sentiment is:
 
 Positive 😊 | Neutral 😐 | Negative 😞
 
-🌐 Deployment
+**🌐 Deployment**
 
 The final sentiment analysis model can be deployed using:
 
@@ -120,7 +133,7 @@ The final sentiment analysis model can be deployed using:
 - Flask
 
 
-👩‍💻 Author
+**👩‍💻 Author**
 
 Pavithra Natarajan
 
