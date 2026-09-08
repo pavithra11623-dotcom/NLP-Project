@@ -2,7 +2,7 @@
 Natural Languages processing projects using Python and machine learning.
 NLP Sentiment Analysis
 
-📌 Project Title
+#📌 Project Title
 
 Customer Review Sentiment Analysis
 
