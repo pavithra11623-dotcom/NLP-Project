@@ -1,9 +1,11 @@
 import streamlit as st
 import pickle
+import os
 import numpy as np
 # Load the trained model
-model = pickle.load(open('sentiment_model.pkl', 'rb'))
-vectorizer = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
+svm_model = joblib.load(os.path.join('svm_model.pkl'))
+vectorizer = joblib.load(os.path.join('Tfidf_vectorizer.pkl'))
+print("Models loaded successfully!")
 # App title
 st.title("Sentiment Analysis App")
 # User input
