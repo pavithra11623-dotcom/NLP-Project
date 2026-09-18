@@ -100,7 +100,8 @@ NLP-Sentiment-Analysis/
 
 ├── NLP.py
 
-├── requirements.txt
+├── svm_model.pkl
+├── tfidf_vectorized.pkl
 
 └── README.md
 
